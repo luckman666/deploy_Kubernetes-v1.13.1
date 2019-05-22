@@ -83,6 +83,7 @@ kube-system   kubernetes-dashboard   NodePort    10.101.25.47   <none>        44
 那么你就输入https://nodeIP:31660来登录
 	
 查看登录时候的token
+
 kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print $1}')
 
 欢迎大家关注我个人的订阅号，会定期分享学习心得，相关案例信息!

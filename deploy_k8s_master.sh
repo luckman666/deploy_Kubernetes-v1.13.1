@@ -224,7 +224,7 @@ install_flannel(){
 
 main(){
  #yum_update
-  setupkernel
+  #setupkernel
   yum_config
   ssh_config
   iptables_config

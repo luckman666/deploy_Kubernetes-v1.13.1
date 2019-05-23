@@ -34,11 +34,11 @@ yum_config(){
 iptables_config(){
   systemctl stop firewalld.service
   systemctl disable firewalld.service
-  yum install iptables-services -y
-  systemctl enable iptables
-  systemctl start iptables
+  #yum install iptables-services -y
+  #systemctl enable iptables
+  #systemctl start iptables
   #iptables -F
-  service iptables save
+  #service iptables save
   iptables -P FORWARD ACCEPT
 }
 #system config

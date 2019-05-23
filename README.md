@@ -19,6 +19,7 @@
 所以大家在部署之前需要先升级一下内核（每台机器都执行哦！）。
 
 具体实现步骤：
+
 git clone https://github.com/luckman666/deploy_Kubernetes-v1.13.1.git
 
 cd deploy_Kubernetes-v1.13.1/

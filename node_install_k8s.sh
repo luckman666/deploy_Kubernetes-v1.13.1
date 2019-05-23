@@ -37,7 +37,7 @@ iptables_config(){
   yum install iptables-services -y
   systemctl enable iptables
   systemctl start iptables
-  iptables -F
+  #iptables -F
   service iptables save
   iptables -P FORWARD ACCEPT
 }

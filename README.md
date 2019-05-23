@@ -17,23 +17,6 @@
 
 6、常见centos7的内核可能是3+的，有可能需要升级内核。虽然我再脚本里面也写了（我注释掉了！），但是还要重启生效，脚本还得慢慢改，这次我没写那么细
 所以大家在部署之前需要先升级一下内核（每台机器都执行哦！）。
-
-# 具体实现步骤：
-
-git clone https://github.com/luckman666/deploy_Kubernetes-v1.13.1.git
-
-cd deploy_Kubernetes-v1.13.1/
-
-chmod -R 755 .
-
-mv * /root
-
-cd /root
-
-编辑base.config里面的参数
-
-./deploy_k8s_master.sh
-
 # 升级内核脚本
 
 执行upgradeKernel.sh就可以将内核升级到4+了，脚本内容如下：
@@ -54,6 +37,23 @@ setupkernel(){
 }
 
 setupkernel
+
+# 具体实现步骤：
+
+git clone https://github.com/luckman666/deploy_Kubernetes-v1.13.1.git
+
+cd deploy_Kubernetes-v1.13.1/
+
+chmod -R 755 .
+
+mv * /root
+
+cd /root
+
+编辑base.config里面的参数
+
+./deploy_k8s_master.sh
+
 
 # base.config参数介绍：
 

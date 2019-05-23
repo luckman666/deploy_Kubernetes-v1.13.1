@@ -30,11 +30,11 @@ mv * /root
 
 cd /root
 
-# 编辑base.config里面的参数
+编辑base.config里面的参数
 
 ./deploy_k8s_master.sh
 
-#############################升级内核脚本
+# 升级内核脚本
 
 执行upgradeKernel.sh就可以将内核升级到4+了，脚本内容如下：
 #!/bin/bash
@@ -55,8 +55,7 @@ setupkernel(){
 
 setupkernel
 
-########################################
-base.config参数介绍：
+# base.config参数介绍：
 
 masterIP：
 
@@ -83,8 +82,7 @@ hostip='
 '
 再部署的时候严格按照我所给的示例参数写哦。换参数不要换格式，以免出错
 
-#################################################
-部署完后进入到dashboard文件夹部署dashboard
+# 部署完后进入到dashboard文件夹部署dashboard
 
 cd dashboard
 

@@ -20,6 +20,7 @@
 # 升级内核脚本
 
 执行upgradeKernel.sh就可以将内核升级到4+了，脚本内容如下：
+
 #!/bin/bash
 
 setupkernel(){

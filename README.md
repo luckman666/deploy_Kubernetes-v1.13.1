@@ -39,7 +39,7 @@ setupkernel(){
 
 setupkernel
 
-# 具体实现步骤：
+# 部署k8s集群具体实现步骤：
 
 git clone https://github.com/luckman666/deploy_Kubernetes-v1.13.1.git
 

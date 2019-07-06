@@ -1,5 +1,6 @@
 # centos7一键部署deploy_Kubernetes:v1.13.1脚本
 
+# k8s 1.15.0一键部署地址：https://github.com/luckman666/deploy_Kubernetes-v1.15.0
 # k8s1.14.1一键部署地址： https://github.com/luckman666/deploy_Kubernetes-v1.14.1
 觉得不错给个star哦！我还会持续更新脚本，但是我想跨代更新，等啥时候出V1.15我在写V1.14的。讲真K8S实在太快了更新的！
 注意事项：
